@@ -1,0 +1,191 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+img{
+	max-width: 100%;
+	height: auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+.container{
+    width: 1140px;
+    margin: 0px auto;
+    height: auto;
+    padding-bottom: 40px;
+}
+
+header{
+    width: 100%;
+}
+
+header .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin: 5px 5px 0px;    
+}
+
+header .logo{
+    width: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+header .menuitems{
+    margin: 25px 5px 0px;
+}
+
+header .menuitems ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 15px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #1E266D;
+}
+
+header .navbarbuttons{
+    padding: 10px 2px;
+    display: block;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 20px 20px 0px;
+}
+
+.login-button{
+    color: white;
+    background-color: #1E266D;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.login-button:hover{
+    color: white;
+    background-color: #00AEEF;
+    padding: 10px;
+    margin-right: 10px;
+    transition: .5s;
+}
+
+section .twopart{
+}
+
+.banner{
+    display: flex;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.introbannerleft{
+    flex-basis: 40%;
+    
+}
+
+.introbannerleft h2{
+    font-size: 42px;
+    line-height: 52px;
+    font-weight: 700;
+    color: #1E266D;
+    padding-bottom: 20px;
+}
+
+.introbannerleft h4{
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 300;
+    color: #1E266D;
+    margin-bottom: 10px;
+    padding-bottom: 40px;
+}
+
+.introbannerleft .viewcourses-button{
+    font-size: 18px;
+    line-height: 18px;
+    color: white;
+    background-color: #2e367d;
+    padding: 15px 40px;
+    border-radius: 5px;
+}
+
+.introbannerright{
+    flex-basis: 60%;
+    
+}
+
+section .threepart{
+
+}
+
+.threepart .features{
+    display: flex;
+    width: 100%;
+    height: auto;
+    padding: 40px 0px;
+    color: white;
+    
+}
+
+.featurebox1{
+    background-color: #F9799A;
+    display: flex;
+    flex-basis: 33.33%;
+    padding: 40px;
+    margin: 0px 15px;
+    border-radius: 10px;
+}
+
+.featurebox2{
+    background-color: #61C4D8;
+    display: flex;
+    flex-basis: 33.33%;
+    padding: 40px;
+    margin: 0px 15px;
+    border-radius: 10px;
+}
+
+.featurebox3{
+    background-color: #1E266D;
+    display: flex;
+    flex-basis: 33.33%;
+    padding: 40px;
+    margin: 0px 15px;
+    border-radius: 10px;
+}
+
+.icons{
+    font-size: 38px;
+    flex-basis: 20%;
+}
+
+.content{
+    font-size: ;
+    flex-basis: 80%;
+}
+
+.content h4{
+    font-size: large;
+}
+
+.content p{
+    font-size: large;
+}
+
