@@ -35,6 +35,9 @@ a:hover{
 
 header{
     width: 100%;
+    height: 125px;
+    position: fixed;
+    background-color: white;
 }
 
 header .navbar{
@@ -87,12 +90,14 @@ header .navbarbuttons{
 }
 
 section .twopart{
+    
 }
 
 .banner{
     display: flex;
     align-items: center;
     font-family: 'Open Sans', sans-serif;
+    padding-top: 110px;
 }
 
 .introbannerleft{
@@ -174,12 +179,12 @@ section .threepart{
 
 .icons{
     font-size: 25px;
-    flex-basis: 20%;
+    flex-basis: 15%;
 }
 
 .content{
     font-size: ;
-    flex-basis: 80%;
+    flex-basis: 85%;
 }
 
 .content h4{
@@ -187,8 +192,8 @@ section .threepart{
 }
 
 .content p{
-    font-size: 14px;
-    line-height: 24px;
+    font-size: 16px;
+    line-height: 26px;
 }
 
 .projects{
@@ -386,7 +391,7 @@ section .threepart{
 
 .services03 .boxleft .viewcourses-button{
     font-size: 18px;
-    line-height: 18px;
+    line-height: 2;
     color: white;
     background-color: #2e367d;
     padding: 15px 40px;
@@ -402,7 +407,7 @@ section .threepart{
 .addressbox{
     width: 100%;
     background-color: #2e367d;
-    padding: 80px 40px;
+    padding: 80px 0px;
     border-radius: 10px;
 
 }
@@ -421,8 +426,8 @@ section .threepart{
 }
 
 .address p{
-    font-size: 16px;
-    line-height: 26px;
+    font-size: 18px;
+    line-height: 1.8;
     font-weight: 300;
 }
 
@@ -462,14 +467,14 @@ section .threepart{
 .connectionbox01{
     flex-basis: 25%;
     margin: 0px 10px;
-    color: #3D4486;
+    color: #91A3BB;
     padding: 0px 15px;
 }
 
 .connectionbox02{
     flex-basis: 25%;
     margin: 0px 10px;
-    color: #3D4486;
+    color: #91A3BB;
     padding: 0px 15px;
 
 }
@@ -477,7 +482,7 @@ section .threepart{
 .connectionbox03{
     flex-basis: 25%;
     margin: 0px 10px;
-    color: #3D4486;
+    color: #91A3BB;
     padding: 0px 15px;
 
 }
@@ -485,7 +490,23 @@ section .threepart{
 .connectionbox04{
     flex-basis: 25%;
     margin: 0px 10px;
-    color: #3D4486;
+    color: #91A3BB;
     padding: 0px 15px;
+
+}
+
+.footerbox{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.footerbox .copyright p{
+    text-align: center;
+    font-size: 14px;
+    line-height: 14px;
+    margin-top: 15px;
+    color: #91A3BB;
 
 }
